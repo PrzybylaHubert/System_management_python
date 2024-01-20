@@ -12,7 +12,7 @@ Narzędzie do wyświetlania listy bieżących procesów z informacjami takimi ja
 
 ### Dodatkowe Informacje
 Użytkownicy nie otrzymują pełnej listy od razu; zamiast tego otrzymują po jednym procesie na kliknięcie. <br>
-Plik: `monitor_processes.py`
+Plik: [monitor_processes.py](../src/monitor_processes.py)
 
 ### Oczekiwany Wynik
 - Lista bieżących procesów z informacjami takimi jak ID procesu, zużycie CPU, pamięci itp.
@@ -29,7 +29,7 @@ Narzędzie do monitorowania zużycia RAM i pamięci wirtualnej.
 2. Wyświetl informacje o zużyciu pamięci wirtualnej.
 
 ### Dodatkowe Informacje
-Plik: `memory_analysis.py`
+Plik: [memory_analysis.py](../src/memory_analysis.py)
 
 ### Oczekiwany Wynik
 - Informacje o zużyciu RAM lub pamięci wirtualnej.
@@ -46,7 +46,7 @@ Proste narzędzie do przeglądania struktury systemu plików, wyświetlania wła
 
 ### Dodatkowe Informacje
 Wpisanie `..` cofa użytkownika o jeden katalog, a `.` nie wykonuje żadnych działań. <br>
-Plik: `file_explorer.py`
+Plik: [file_explorer.py](../src/file_explorer.py)
 
 ### Oczekiwany Wynik
 - Struktura systemu plików.
@@ -62,7 +62,7 @@ Narzędzie do śledzenia operacji wejścia-wyjścia, takich jak odczyt/zapis na 
 1. Wyświetl informacje o operacjach wejścia-wyjścia.
 
 ### Dodatkowe Informacje
-Plik: `io_monitor.py`
+Plik: [io_monitor.py](../src/io_monitor.py)
 
 ### Oczekiwany Wynik
 - Informacje o operacjach wejścia-wyjścia, takie jak liczba odczytów, liczba zapisów, bajty odczytane i bajty zapisane.
@@ -78,7 +78,7 @@ Narzędzie do monitorowania aktywności sieciowej, wyświetlanie otwartych port�
 3. Wyświetl informacje o aktywnych połączeniach.
 
 ### Dodatkowe Informacje
-Plik: `network_activity.py`
+Plik: [network_activity.py](../src/network_activity.py)
 
 ### Oczekiwany Wynik
 - Informacje o aktywności sieciowej, takie jak otwarte porty, aktywne połączenia i aktualna konfiguracja sieci.
@@ -93,7 +93,7 @@ Narzędzie do wyświetlania listy zalogowanych użytkowników i ich aktywności.
 2. Wyświetl aktywność wybranego użytkownika (wymagana pełna nazwa użytkownika).
 
 ### Dodatkowe informacje
-Plik: `user_accounts.py`
+Plik: [user_accounts.py](../src/user_accounts.py)
 
 ### Oczekiwany wynik
 - Lista zalogowanych użytkowników, wraz z ich nazwą użytkownika i pełnym imieniem.
@@ -108,7 +108,7 @@ Narzędzie do wyświetlania listy działających usług/daemonów w systemie.
 1. Wyświetl listę działających usług.
 
 ### Dodatkowe informacje
-Plik: `service_monitor.py`
+Plik: [service_monitor.py](../src/service_monitor.py)
 
 ### Oczekiwany wynik
 - Lista działających usług wraz z ich nazwami, statusem i ścieżką do pliku wykonywalnego.

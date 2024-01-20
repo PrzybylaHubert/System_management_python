@@ -12,7 +12,7 @@ Tool to display a list of current processes with information such as process ID,
 
 ### Additional Information
 Users do not receive the entire list at once; instead, they receive one process per click. <br>
-File: `monitor_processes.py`
+File: [monitor_processes.py](../src/monitor_processes.py)
 
 ### Expected Output
 - List of current processes with information such as process ID, CPU usage, memory, etc.
@@ -29,7 +29,7 @@ Tool to monitor the usage of RAM and virtual memory.
 2. Display information about the usage of virtual memory.
 
 ### Additional Information
-File: `memory_analysis.py`
+File: [memory_analysis.py](../src/memory_analysis.py)
 
 ### Expected Output
 - Information about the usage of RAM or virtual memory.
@@ -46,7 +46,7 @@ Simple tool for navigating the file system, viewing properties of files and fold
 
 ### Additional Information
 Typing `..` moves the user back by one directory, and `.` does not perform any actions. <br>
-File: `file_explorer.py`
+File: [file_explorer.py](../src/file_explorer.py)
 
 ### Expected Output
 - File system structure.
@@ -62,7 +62,7 @@ Tool to track input-output operations, such as disk reads/writes.
 1. Display information about input-output operations.
 
 ### Additional Information
-File: `io_monitor.py`
+File: [io_monitor.py](../src/io_monitor.py)
 
 ### Expected Output
 - Information about input-output operations, such as read count, write count, read bytes, and write bytes.
@@ -78,7 +78,7 @@ Tool to monitor network activity, displaying open ports, active connections, and
 3. Display information about active connections.
 
 ### Additional Information
-File: `network_activity.py`
+File: [network_activity.py](../src/network_activity.py)
 
 ### Expected Output
 - Information about network activity, such as open ports, active connections, and current network configuration.
@@ -93,7 +93,7 @@ Tool to display a list of logged-in users and their activities.
 2. Display the activity of a selected user (full username required).
 
 ### Additional Information
-File: `user_accounts.py`
+File: [user_accounts.py](../src/user_accounts.py)
 
 ### Expected Output
 - List of logged-in users, including their username and full name.
@@ -108,7 +108,7 @@ Tool to display a list of running system services/daemons.
 1. Display a list of running services.
 
 ### Additional Information
-File: `service_monitor.py`
+File: [service_monitor.py](../src/service_monitor.py)
 
 ### Expected Output
 - List of running services with their names, status, and path to the executable file.
