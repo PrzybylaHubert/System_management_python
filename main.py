@@ -1,10 +1,10 @@
-import monitor_processes
-import memory_analysis
-import file_explorer
-import io_monitor
-import network_analysis
-import user_accounts
-import service_monitor
+from src import monitor_processes
+from src import memory_analysis
+from src import file_explorer
+from src import io_monitor
+from src import network_analysis
+from src import user_accounts
+from src import service_monitor
 
 def main_menu():
     print("")

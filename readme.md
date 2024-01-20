@@ -18,8 +18,8 @@ This project is a System Monitoring Toolkit developed using Python. The entire p
 
 ## Documentation
 For more details on each functionality, refer to the:
-- [English Documentation](documentation.md)
-- [Polska Dokumentacja](documentation_pl.md)
+- [English Documentation](documentation/documentation.md)
+- [Polska Dokumentacja](documentation/documentation_pl.md)
 
 ## Note
 This project was generated using ChatGPT, and its primary testing environment is Windows 10. Use it in other environments at your own discretion.
