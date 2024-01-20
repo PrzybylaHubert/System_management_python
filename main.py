@@ -1,6 +1,7 @@
 import monitor_processes
 import memory_analysis
 import file_explorer
+import io_monitor
 
 def main_menu():
     print("")
@@ -8,8 +9,9 @@ def main_menu():
     print("1. Monitor Procesów")
     print("2. Analiza Pamięci")
     print("3. Eksplorator Systemu Plików")
-    print("4. Inna Funkcjonalność (do dodania)")
-    print("5. Wyjdź")
+    print("4. Monitor Wejścia-Wyjścia")
+    print("5. Inna Funkcjonalność (do dodania)")
+    print("6. Wyjdź")
 
 if __name__ == "__main__":
     while True:
@@ -23,9 +25,11 @@ if __name__ == "__main__":
         elif user_choice == '3':
             file_explorer.explore_file_system()
         elif user_choice == '4':
+            io_monitor.monitor_io()
+        elif user_choice == '5':
             # Dodaj inną funkcjonalność tutaj
             print("Wybrano Inną Funkcjonalność (do dodania)")
-        elif user_choice == '5':
+        elif user_choice == '6':
             print("Wyjście z programu.")
             break
         else:
