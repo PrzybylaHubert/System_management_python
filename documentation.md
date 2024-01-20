@@ -1,6 +1,6 @@
 # System Monitoring Toolkit Documentation
 
-## Process Monitor
+## 1. Process Monitor
 
 ### Functionality
 Tool to display a list of current processes with information such as process ID, CPU usage, memory, etc.
@@ -19,7 +19,7 @@ File: `monitor_processes.py`
 - Sorted list of processes based on the chosen option (CPU, memory, or name).
 - Filtered results of processes based on name.
 
-## Memory Analysis
+## 2. Memory Analysis
 
 ### Functionality
 Tool to monitor the usage of RAM and virtual memory.
@@ -34,7 +34,7 @@ File: `memory_analysis.py`
 ### Expected Output
 - Information about the usage of RAM or virtual memory.
 
-## File Explorer
+## 3. File Explorer
 
 ### Functionality
 Simple tool for navigating the file system, viewing properties of files and folders.
@@ -53,7 +53,7 @@ File: `file_explorer.py`
 - Information about a selected file/folder.
 - Changed current location after navigating through folders.
 
-## I/O Monitor
+## 4. I/O Monitor
 
 ### Functionality
 Tool to track input-output operations, such as disk reads/writes.
@@ -67,7 +67,7 @@ File: `io_monitor.py`
 ### Expected Output
 - Information about input-output operations, such as read count, write count, read bytes, and write bytes.
 
-## Network Activity
+## 5. Network Activity
 
 ### Functionality
 Tool to monitor network activity, displaying open ports, active connections, and current network configuration.
@@ -83,7 +83,7 @@ File: `network_activity.py`
 ### Expected Output
 - Information about network activity, such as open ports, active connections, and current network configuration.
 
-## User Accounts
+## 6. User Accounts
 
 ### Functionality
 Tool to display a list of logged-in users and their activities.
@@ -99,7 +99,7 @@ File: `user_accounts.py`
 - List of logged-in users, including their username and full name.
 - Activity of the selected user, including processes currently running.
 
-## Service Monitor
+## 7. Service Monitor
 
 ### Functionality
 Tool to display a list of running system services/daemons.

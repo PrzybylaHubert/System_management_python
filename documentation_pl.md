@@ -1,6 +1,6 @@
 # Dokumentacja Narzędzi Monitorujących System
 
-## Monitor Procesów
+## 1. Monitor Procesów
 
 ### Funkcjonalność
 Narzędzie do wyświetlania listy bieżących procesów z informacjami takimi jak ID procesu, zużycie CPU, pamięci itp.
@@ -19,7 +19,7 @@ Plik: `monitor_processes.py`
 - Posortowana lista procesów w zależności od wybranej opcji (CPU, pamięć lub nazwa).
 - Wyniki procesów po filtrowaniu według nazwy.
 
-## Analiza Pamięci
+## 2. Analiza Pamięci
 
 ### Funkcjonalność
 Narzędzie do monitorowania zużycia RAM i pamięci wirtualnej.
@@ -34,7 +34,7 @@ Plik: `memory_analysis.py`
 ### Oczekiwany Wynik
 - Informacje o zużyciu RAM lub pamięci wirtualnej.
 
-## Eksplorator Systemu Plików
+## 3. Eksplorator Systemu Plików
 
 ### Funkcjonalność
 Proste narzędzie do przeglądania struktury systemu plików, wyświetlania właściwości plików i folderów.
@@ -53,7 +53,7 @@ Plik: `file_explorer.py`
 - Informacje o wybranym pliku/folderze.
 - Zmieniona bieżąca lokalizacja po nawigacji przez foldery.
 
-## Monitor Wejścia-Wyjścia
+## 4. Monitor Wejścia-Wyjścia
 
 ### Funkcjonalność
 Narzędzie do śledzenia operacji wejścia-wyjścia, takich jak odczyt/zapis na dysku.
@@ -67,7 +67,7 @@ Plik: `io_monitor.py`
 ### Oczekiwany Wynik
 - Informacje o operacjach wejścia-wyjścia, takie jak liczba odczytów, liczba zapisów, bajty odczytane i bajty zapisane.
 
-## Monitor Aktywności Sieciowej
+## 5. Monitor Aktywności Sieciowej
 
 ### Funkcjonalność
 Narzędzie do monitorowania aktywności sieciowej, wyświetlanie otwartych portów, aktywnych połączeń itp.
@@ -83,7 +83,7 @@ Plik: `network_activity.py`
 ### Oczekiwany Wynik
 - Informacje o aktywności sieciowej, takie jak otwarte porty, aktywne połączenia i aktualna konfiguracja sieci.
 
-## Konta Użytkowników
+## 6. Konta Użytkowników
 
 ### Funkcjonalność
 Narzędzie do wyświetlania listy zalogowanych użytkowników i ich aktywności.
@@ -92,5 +92,27 @@ Narzędzie do wyświetlania listy zalogowanych użytkowników i ich aktywności.
 1. Wyświetl listę zalogowanych użytkowników.
 2. Wyświetl aktywność wybranego użytkownika (wymagana pełna nazwa użytkownika).
 
-### Dodatkowe Informacje
-Plik: `user_accounts.py
+### Dodatkowe informacje
+Plik: `user_accounts.py`
+
+### Oczekiwany wynik
+- Lista zalogowanych użytkowników, wraz z ich nazwą użytkownika i pełnym imieniem.
+- Aktywność wybranego użytkownika, w tym obecnie uruchomione procesy.
+
+## 7. Monitor Usług Systemowych
+
+### Funkcjonalność
+Narzędzie do wyświetlania listy działających usług/daemonów w systemie.
+
+### Opcje
+1. Wyświetl listę działających usług.
+
+### Dodatkowe informacje
+Plik: `service_monitor.py`
+
+### Oczekiwany wynik
+- Lista działających usług wraz z ich nazwami, statusem i ścieżką do pliku wykonywalnego.
+
+---
+
+Ta dokumentacja obejmuje funkcjonalność, dostępne opcje, wszelkie dodatkowe informacje oraz oczekiwany wynik dla każdego narzędzia w Narzędziach Monitorujących System.
