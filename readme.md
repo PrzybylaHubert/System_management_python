@@ -11,6 +11,28 @@ This project is a System Monitoring Toolkit developed using Python. The entire p
 6. **File Explorer**: Simple tool for navigating the file system, viewing properties of files and folders.
 7. **Service Monitor**: Monitors and displays the status of running system services.
 
+## Requirements
+
+To run this project, you need to have the following dependencies installed:
+
+- **psutil**: A cross-platform library for retrieving information on running processes and system utilization.
+
+- **platform**: A built-in Python module providing an interface to access information about the underlying platform (operating system).
+
+### Installing Dependencies
+
+Before running the toolkit, make sure you have [pip](https://pip.pypa.io/en/stable/installation/) installed on your system.
+
+
+To install the required dependencies, you can use the following commands:
+
+```bash
+pip install psutil
+```
+
+```bash
+pip install platform
+```
 ## Usage
 1. Clone the repository.
 2. Ensure you have Python installed.
