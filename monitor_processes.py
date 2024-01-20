@@ -8,6 +8,7 @@ def display_process_info(process):
     print("-" * 30)
 
 def run_monitor():
+    print("")
     print("Monitor Procesów")
     try:
         while True:
