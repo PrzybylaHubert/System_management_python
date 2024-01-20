@@ -3,6 +3,7 @@ import memory_analysis
 import file_explorer
 
 def main_menu():
+    print("")
     print("Główne Menu")
     print("1. Monitor Procesów")
     print("2. Analiza Pamięci")
