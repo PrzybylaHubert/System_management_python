@@ -3,6 +3,7 @@ import memory_analysis
 import file_explorer
 import io_monitor
 import network_analysis
+import user_accounts
 
 def main_menu():
     print("")
@@ -12,8 +13,9 @@ def main_menu():
     print("3. Eksplorator Systemu Plików")
     print("4. Monitor Wejścia-Wyjścia")
     print("5. Analiza Aktywności Sieciowej")
-    print("6. Inna Funkcjonalność (do dodania)")
-    print("7. Wyjdź")
+    print("6. Konta Użytkowników")
+    print("7. Inna Funkcjonalność (do dodania)")
+    print("8. Wyjdź")
 
 if __name__ == "__main__":
     while True:
@@ -31,9 +33,11 @@ if __name__ == "__main__":
         elif user_choice == '5':
             network_analysis.analyze_network_activity()
         elif user_choice == '6':
+            user_accounts.display_user_accounts()
+        elif user_choice == '7':
             # Dodaj inną funkcjonalność tutaj
             print("Wybrano Inną Funkcjonalność (do dodania)")
-        elif user_choice == '7':
+        elif user_choice == '8':
             print("Wyjście z programu.")
             break
         else:
